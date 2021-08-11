@@ -1,98 +1,114 @@
 <!DOCTYPE HTML>
-<html lang="eng">
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Tattoo Saloon</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="page-header">
+    <div id="page_header" class="page-header">
       <div class="container">
-        <div class="header-top clearfix">
-          <ul class="menu clearfix">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">GALLERY</a></li>
-            <li><img class="header-logo" src="img/header-logo.png" alt="Tattoo Saloon" width="260" height="137"></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">FIND US</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+        <div class="header-top">
+          <nav class="menu">
+            <ul>
+              <li><a href="#page_header">HOME</a></li>
+              <li><a href="#about_us">ABOUT</a></li>
+              <li><a href="#gallery">GALLERY</a></li>
+              <li><img class="header-logo" src="img/header-logo.png" alt="Tattoo Saloon"></li>
+              <li><a href="#team">FAQ</a></li>
+              <li><a href="#map">FIND US</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
 
-    <div class="about-us">
+    <div id="about_us" class="about-us">
       <div class="container">
-        <div class="title-item clearfix">
-          <h2 class="title">ABOUT US</h2>
+        <div class="title-item">
+          <h2>ABOUT US</h2>
         </div>
         <div class="paragraph-item">
-          <img class="about-logo" src="img/about-us-logo.png" alt="Logo" width="84" height="58">
+          <img class="about-logo" src="img/about-us-logo.png" alt="Logo">
           <p class="item-first">Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p class="item-second">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero.<br>
   Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.</p>
         </div>
-        <div class="gallery">
-          <img src="img/gallery-1.jpg" alt="photo-1" width="250" height="250">
-          <img src="img/gallery-2.jpg" alt="photo-2" width="250" height="250">
-          <img src="img/gallery-3.jpg" alt="photo-3" width="250" height="250">
-          <img src="img/gallery-4.jpg" alt="photo-4" width="250" height="250">
-          <img src="img/gallery-5.jpg" alt="photo-5" width="250" height="250">
-          <img src="img/gallery-6.jpg" alt="photo-6" width="250" height="250">
-          <img src="img/gallery-7.jpg" alt="photo-7" width="250" height="250">
-          <img src="img/gallery-8.jpg" alt="photo-8" width="250" height="250">
-          <img src="img/gallery-9.jpg" alt="photo-9" width="250" height="250">
-          <img src="img/gallery-10.jpg" alt="photo-10" width="250" height="250">
-          <img src="img/gallery-11.jpg" alt="photo-11" width="250" height="250">
-          <img src="img/gallery-12.jpg" alt="photo-12" width="250" height="250">
+        <div class="gallery gallery-link">
+          <ul>
+            <li><img src="img/gallery-1.jpg" alt="photo-1"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-2.jpg" alt="photo-2"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-3.jpg" alt="photo-3"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-4.jpg" alt="photo-4"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-5.jpg" alt="photo-5"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-6.jpg" alt="photo-6"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-7.jpg" alt="photo-7"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-8.jpg" alt="photo-8"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-9.jpg" alt="photo-9"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-10.jpg" alt="photo-10"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-11.jpg" alt="photo-11"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+            <li><img src="img/gallery-12.jpg" alt="photo-12"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          </ul>
         </div>
       </div>
     </div>
 
     <div class="blockquote-block">
       <div class="container">
-        <img src="img/back-blockquote.jpg" alt="back-blockquote" width="1500" height="350">
         <div class="cite">
-          <blockquote>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</blockquote>
+          <blockquote>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p class="subscribe">- john doe -</p></blockquote>
+          <p class="quotes quotes-1">“</p>
+          <p class="quotes quotes-2">“</p>
         </div>
-        <p><span class="subscribe">- john doe -</span></p>
-        <p><span class="quotes-1">“</span></p>
-        <p><span class="quotes-2">“</span></p>
       </div>
     </div>
 
-    <div class="team">
+    <div id="team" class="team">
       <div class="container">
         <div class="wrapper">
           <div class="team-title">
             <h2>TEAM</h2>
           </div>
-          <div class="tattoo-master-1"><img src="img/tattoo-master-1.jpg" alt="tattoo-master-1" width="500" height="500">
-            <div class="arrow-1"><img src="img/arrow-1.png" alt="arrow-1" width="26" height="30"></div>
+          <div class="tattoo-master-1"><img src="img/tattoo-master-1.jpg" alt="tattoo-master-1">
+            <div class="arrow-1"><img src="img/arrow-1.png" alt="arrow-1"></div>
           </div>
           <div class="about-master-1">
             <h3>COREY MILLER</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero.<br>
 Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.</p>
+            <div class="social-icon">
+              <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+              <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+              <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
+            </div>
           </div>
-          <div class="tattoo-master-2"><img src="img/tattoo-master-2.jpg" alt="tattoo-master-2" width="500" height="500">
-            <div class="arrow-1"><img src="img/arrow-1.png" alt="arrow-1" width="26" height="30"></div>
+          <div class="tattoo-master-2"><img src="img/tattoo-master-2.jpg" alt="tattoo-master-2">
+            <div class="arrow-1"><img src="img/arrow-1.png" alt="arrow-1"></div>
           </div>
           <div class="about-master-2">
             <h3>KAT VON D</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus eros, ultricies quis erat sit amet, elementum vulputate lorem. Sed at lacinia lectus, quis blandit libero.<br>
   Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum sem ut felis vehicula aliquet. Donec rhoncus, mi et euismod dictum, purus lorem vehicula justo, a iaculis mi nulla et risus.</p>
-            <div class="social">
+            <div class="social-icon">
+              <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+              <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+              <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+              <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
             </div>
           </div>
-          <div class="news-submit">
+          <div class="news-letters">
             <h4>NEWSLETTER</h4>
             <p>JOIN THOUSANDS OF OTHER PEOPLE SUBSCRIBE TO OUR NEWS</p>
-            <form class="subscribe" action="" method="post">
-              <input type="email" required placeholder="INSERT EMAIL" name="user_mail" style="width: 300px; height: 40px;">
-              <input type="submit" value="SUBMIT">
-            </form>
+            <div class="news-subscribe">
+              <form class="subscribe" id="form" name="form">
+                <input type="email" required placeholder="INSERT EMAIL" name="user_mail">
+                <input type="submit" value="SUBMIT">
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -100,49 +116,50 @@ Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum 
 
     <div class="twit">
       <div class="container">
-        <img src="img/twit-back.jpg" alt="twit-back" width="1500" height="350">
-        <p>RT @collis: Trade growth ideas with other founders. Look for ways to cross promote. Small startups today may be big friends later. (9/10)  2 days ago</p>
+        <a href="#" class="fa fa-twitter" aria-hidden="true">
+          <p>RT @collis: Trade growth ideas with other founders. Look for ways to cross promote. Small startups today may be big friends later. (9/10)  2 days ago</p>
+        </a>
       </div>
     </div>
 
-    <div class="gallery-block">
-      <div class="gallery-2">
-        <div class="gallery-title">
-          <h2>GALLERY</h2>
-        </div>
-        <img src="img/gallery2-1.jpg" alt="photo2-1" width="300" height="300">
-        <img src="img/gallery2-2.jpg" alt="photo2-2" width="300" height="300">
-        <img src="img/gallery2-3.jpg" alt="photo2-3" width="300" height="300">
-        <img src="img/gallery2-4.jpg" alt="photo2-4" width="300" height="300">
-        <img src="img/gallery2-5.jpg" alt="photo2-5" width="300" height="300">
-        <img src="img/gallery2-6.jpg" alt="photo2-6" width="300" height="300">
-        <img src="img/gallery2-7.jpg" alt="photo2-7" width="300" height="300">
-        <img src="img/gallery2-8.jpg" alt="photo2-8" width="300" height="300">
-        <img src="img/gallery2-9.jpg" alt="photo2-9" width="300" height="300">
-        <img src="img/gallery2-10.jpg" alt="photo2-10" width="300" height="300">
-        <img src="img/gallery2-11.jpg" alt="photo2-11" width="300" height="300">
-        <img src="img/gallery2-12.jpg" alt="photo2-12" width="300" height="300">
-        <img src="img/gallery2-13.jpg" alt="photo2-13" width="300" height="300">
-        <img src="img/gallery2-14.jpg" alt="photo2-14" width="300" height="300">
-        <img src="img/gallery2-15.jpg" alt="photo2-15" width="300" height="300">
-        <img src="img/gallery2-16.jpg" alt="photo2-16" width="300" height="300">
-        <img src="img/gallery2-17.jpg" alt="photo2-17" width="300" height="300">
-        <img src="img/gallery2-18.jpg" alt="photo2-18" width="300" height="300">
+    <div id="gallery" class="gallery-block">
+      <div class="gallery-2 gallery-link">
+        <ul>
+          <li class="gallery-title"><h2>GALLERY</h2></li>
+          <li><img src="img/gallery2-1.jpg" alt="photo2-1"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-2.jpg" alt="photo2-2"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-3.jpg" alt="photo2-3"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-4.jpg" alt="photo2-4"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-5.jpg" alt="photo2-5"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-6.jpg" alt="photo2-6"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-7.jpg" alt="photo2-7"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-8.jpg" alt="photo2-8"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-9.jpg" alt="photo2-9"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-10.jpg" alt="photo2-10"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-11.jpg" alt="photo2-11"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-12.jpg" alt="photo2-12"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-13.jpg" alt="photo2-13"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-14.jpg" alt="photo2-14"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-15.jpg" alt="photo2-15"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-16.jpg" alt="photo2-16"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-17.jpg" alt="photo2-17"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+          <li><img src="img/gallery2-18.jpg" alt="photo2-18"><a class="zoom" href="#"></a><a class="link" href="#"></a><a class="info" href="#"></a><a class="like" href="#"></a></li>
+        </ul>
       </div>
     </div>
 
-    <div class="feedback">
+    <div id="contact" class="feedback">
       <div class="container">
         <div class="contact-info">
           <h2>CONTACT US</h2>
           <p>Aliquam ac justo interdum, elementum ligula et, condimentum orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <div  class="contact-details">
+          <div class="contact-details">
             <p><b>INFO</b>:<br>
               <br>
               PHONE : <b><a href="tel:+123456789456">+ 123-456-789-456</a></b><br>
-              FAX : <b>+ 123-456-789-456</b><br>
-              EMAI L: <b>info@inktattoo.net</b><br>
-              ADRESS : <b>1234 Street Road, City Name</b></p>
+              FAX : <b><a href="fax:+123-456-789-456">+ 123-456-789-456</a></b><br>
+              EMAI L: <b><a href="mailto:info@inktattoo.net">info@inktattoo.net</a></b><br>
+              ADRESS : <b><a href="https://yandex.ru/maps/-/CCUiAPgXWB">Island Freeway Terminal, New York</a></b></p>
           </div>
           <div class="work-hours">
             <p><b>WORK HOURS:</b><br>
@@ -151,9 +168,15 @@ Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum 
               SATURDAY : <b>09AM - 1PM</b><br>
               SUNDAY : <b>CLOSED</b></p><br>
           </div>
+          <div class="social-icon">
+            <a href="#" class="fa fa-facebook" aria-hidden="true"></a>
+            <a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+            <a href="#" class="fa fa-instagram" aria-hidden="true"></a>
+            <a href="#" class="fa fa-google-plus" aria-hidden="true"></a>
+          </div>
         </div>
         <div class="form-feedback">
-          <form class="appointment" action="" method="post">
+          <form class="appointment" action="URL" method="post">
             <input type="text" required placeholder="FULL NAME">
             <input type="email" required placeholder="EMAIL">
             <textarea required placeholder="MESSAGE"></textarea>
@@ -163,7 +186,7 @@ Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum 
       </div>
     </div>
 
-    <div class="location">
+    <div id="map" class="location">
       <div class="container">
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A431bc2516a913062cd613cc86bf90fb8ac01f5b06b7861c6cc4f59ee6672b3b6&amp;width=100%25&amp;height=800&amp;lang=ru_RU&amp;scroll=true"></script>
       </div>
@@ -171,32 +194,30 @@ Quisque ac malesuada lectus. Proin gravida feugiat commodo. Phasellus fermentum 
 
     <div class="footer">
       <div class="container">
-        <ul class="menu">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">GALLERY</a></li>
-          <li><img class="header-logo" src="img/header-logo.png" alt="Tatoo Saloon" width="260" height="137"></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">FIND US</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+        <nav class="menu">
+          <ul>
+            <li><a href="#page_header">HOME</a></li>
+            <li><a href="#about_us">ABOUT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><img class="header-logo" src="img/header-logo.png" alt="Tattoo Saloon" width="260" height="137"></li>
+            <li><a href="#team">FAQ</a></li>
+            <li><a href="#map">FIND US</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
         <div class="copyright">
-          <p>&#169; 2021 InkTattoo. All rights reserved - Designed by theuncreativelab.com<br>2021 Web-development by Oleg Basisty</p>
+          <p>&#169; 2021 InkTattoo. All rights reserved - Designed by theuncreativelab.com</p>
+          <p>&#169; 2021 Web-development by Oleg Basisty</p>
+        </div>
+        <div class="about-me">
+          <a href="https://vk.com/murderface_w" class="fa fa-vk" aria-hidden="true"></a>
+          <a href="https://www.instagram.com/olegbasistyy" class="fa fa-instagram" aria-hidden="true"></a>
+          <a href="mailto:basityoleg@gmail.com" class="fa fa-google" aria-hidden="true"></a>
+          <a href="tel:+79526839757" class="fa fa-phone" aria-hidden="true"></a>
         </div>
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://use.fontawesome.com/e9832f54ac.js"></script>
   </body>
 </html>
