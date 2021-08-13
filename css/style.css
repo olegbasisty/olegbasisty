@@ -459,7 +459,6 @@ blockquote .subscribe {
   transition: 2s;
 }
 
-
 .twit p {
   width: 950px;
   position: absolute;
@@ -680,4 +679,18 @@ blockquote .subscribe {
 .about-me a:hover{
   transform: scale(1.5, 1.5);
   transition: 0.1s;
+}
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  right: 10px;
+  bottom: 200px;
+  width: 30px;
+  height: 30px;
+  border-top: 10px solid #9a977a;
+  border-right: 10px solid #9a977a;
+  margin-right: 60px;
+  transform: rotate(-45deg);
+  background-color: transparent;
 }
